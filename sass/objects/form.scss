@@ -1,0 +1,21 @@
+.fs-input {
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	line-height: 1.42857143;
+	color: $color-black;
+	border: 1px solid $color-lightgrey;
+	transition: all 0.2s;
+	&:hover, &:active {
+		border: 1px solid $color-black;
+	}
+	&:focus {
+		outline: none;
+	}
+}
+
+form {
+	.call-to-action {
+		margin-top: 0rem !important;
+	}
+}

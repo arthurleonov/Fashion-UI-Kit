@@ -1,0 +1,41 @@
+.product-selection1 {
+	margin-top: 5rem;
+	.left-container {
+		max-height: 48rem;
+		overflow: hidden;
+	}
+	.fs-container-container { 
+		.boxes {
+			margin-top: 3rem;
+			a {
+				span {
+				border: 1px solid $color-black;
+				font-family: $primary-font;
+				font-weight: 600;
+				display: inline-block;
+				min-width: 4rem;
+				text-align: center;
+				min-height: 4rem;
+				padding: 1.5rem 2rem;
+				transition: background-color 0.4s;
+					&:hover {
+						background-color: $color-black;
+						color: $color-white;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+	
+
+
+
+@media only screen and (min-width : 768px) {
+		.no-padding-lg {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}

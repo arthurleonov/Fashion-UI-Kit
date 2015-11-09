@@ -1,0 +1,145 @@
+.navbar-styled {
+	border-radius: none;
+	background-color: inherit;
+  border-bottom: 1px solid $color-black;
+  border-radius: 0px;
+  .navbar-toggle {
+  
+    .icon-bar {
+      background-color: $color-black;
+    }
+  }
+	.nav, .collapse, .dropup, .dropdown {
+		position: static;
+	}
+	.container {
+		position: relative;
+	}
+	.dropdown-menu {
+    left: auto;
+    padding: 0 0;
+    background-color: inherit;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+  }
+  .navbar-brand {
+    font-family: $primary-font;
+    font-size: 2.5rem;
+  }
+  .menu-dropdown-content {
+    padding: 0px 15px;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.32);
+    .items {
+     height: 30rem;
+      // background-image: url("/img/image5.jpg");
+      background-size: cover;
+      background-position: 0% 56%;
+
+     p {
+      padding-top: 1rem;
+      font-size: 1.5rem;
+      text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+    }
+    h3 {
+      padding-top: 1rem;
+      padding-bottom: 2rem;
+      text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+    }
+    &.item1 {
+      background: linear-gradient(
+       rgba(165, 87, 204, 0.7),
+       rgba(181, 7, 19, 0.7)
+                  ), url("/img/image1v3.jpg"); // https://css-tricks.com/tinted-images-multiple-backgrounds/
+      background-size: cover;
+      background-position: 0% 56%;
+
+    }
+    &.item2 {
+      background: linear-gradient(
+        rgba(179, 255, 171, 0.6),
+        rgba(8, 255, 247, 0.6)
+                 ), url("/img/image2v3.jpg"); // https://css-tricks.com/tinted-images-multiple-backgrounds/
+      background-size: cover;
+      background-position: 0% 56%;
+
+    }
+    &.item3 {
+      background: linear-gradient(
+        rgba(211, 131, 18, 0.7),
+        rgba(168, 50, 121, 0.7)
+                 ), url("/img/image3v2.jpg"); // https://css-tricks.com/tinted-images-multiple-backgrounds/
+      background-size: cover;
+      background-position: 0% 56%;
+
+    }
+    &.item4 {
+      background: linear-gradient(
+        rgba(24, 90, 157, 0.6),
+        rgba(67, 206, 162, 0.6)
+                 ), url("/img/image4v2.jpg"); // https://css-tricks.com/tinted-images-multiple-backgrounds/
+      background-size: cover;
+      background-position: 0% 56%;
+
+    }
+    &.item5 {
+      background-image: url("/img/image5.jpg");
+      background-size: cover;
+      background-position: 0% 56%;
+
+    }
+  }
+}
+  .menu-links {
+    a {
+     font-family: $primary-font;
+     font-size: 2rem;
+     font-weight: bold;
+     &:hover {
+      border-left: 1px solid $color-black;
+      border-top: 1px solid $color-black;
+      border-right: 1px solid $color-black;
+      color: $color-black;
+     }
+   }
+  }
+}
+
+
+.yamm .dropdown.yamm-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+}
+
+.divider {
+	border-bottom: 1px solid $color-white;
+	margin: 0 auto !important;
+	width: 20%;
+}
+
+.circle {
+  background-color: purple;
+  width: 50px;
+  height: 50px;
+  margin-top: 10rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.active { display: block; }
+.hidden { display: none; }
+
+
+@media (max-width: 768px) { 
+  .nav {
+    margin-bottom: 0px;
+  }
+  .items {
+    min-height: 35rem;
+  }
+  .menu-dropdown-content {
+    box-shadow: none;
+  }
+}
+

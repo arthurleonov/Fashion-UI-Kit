@@ -1,0 +1,29 @@
+.cart {
+	.cartItems {
+		margin-bottom: 2rem;
+	}
+	.total-cost {
+		height: 7rem;
+		margin: 0rem -2rem;
+		border-top: 2px solid $color-black;
+		border-bottom: 2px solid $color-black;
+		background: repeating-linear-gradient(
+		  -55deg,
+		  $color-white,
+		  $color-white 5px,
+		   rgba(221, 221, 221, 0.4) 5px,
+		   rgba(221, 221, 221, 0.4) 7px
+		); // this creates the curved line effect in the total container
+		h3 {
+			margin: 2rem 0;
+			font-weight: bold;
+		}
+	}
+}
+
+
+
+@media only screen and (max-width : 768px) {
+
+}
+		
